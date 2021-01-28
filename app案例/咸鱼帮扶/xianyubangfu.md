@@ -14,5 +14,4 @@ secret,key 在key.xml中。这个xml做了特殊处理。
 
 直接objsearch，存在就dump，可以看到hashtable的明文数据。
 
-![image-20201103101214185](/Users/chion/Library/Application Support/typora-user-images/image-20201103101214185.png)
-
+![image-20201103101214185](./image-20201103101214185.png)
