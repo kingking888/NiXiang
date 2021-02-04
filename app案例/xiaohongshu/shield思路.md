@@ -12,7 +12,7 @@
 
 搞过开发都知道，这种静态资源一般都是启动就有了，所以顺藤摸瓜
 
-<img src="/Users/chion/Library/Application Support/typora-user-images/image-20210202211406288.png" alt="image-20210202211406288" style="zoom:50%;" />
+![image-20210202211406288](image-20210202211406288.png)
 
 找到了这个字眼，然后上面，有一个初始化的cost，和指纹一样。看看b函数，l.v.x0.a.b返回值。
 
