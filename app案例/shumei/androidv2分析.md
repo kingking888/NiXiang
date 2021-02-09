@@ -1,6 +1,6 @@
 ### 抓包hook分析
 
-![image-20210209160606651](/Users/chion/Desktop/NiXiang/app案例/shumei/androidv2分析.assets/image-20210209160606651.png)
+![image-20210209160606651](./androidv2分析.assets/image-20210209160606651.png)
 
 首先hook一遍native函数
 
@@ -87,19 +87,19 @@ X1 就是fingerprint。通过java层分析可以得出pri是一层rsa的加密�
 
 private native String x1(String str, String str2); 
 
-![image-20210209161148035](/Users/chion/Desktop/NiXiang/app案例/shumei/androidv2分析.assets/image-20210209161148035.png)
+![image-20210209161148035](./androidv2分析.assets/image-20210209161148035.png)
 
 str应该是一个随机密钥，str2就是一些指纹加密之后的信息了。
 
 ainfo 就是一些检测点了
 
-![image-20210209161811585](/Users/chion/Desktop/NiXiang/app案例/shumei/androidv2分析.assets/image-20210209161811585.png)
+![image-20210209161811585](./androidv2分析.assets/image-20210209161811585.png)
 
 检测了xposed，root等各种框架
 
 Y2 的作用就是把这些信息加密给ainfo
 
-![image-20210209162009330](/Users/chion/Desktop/NiXiang/app案例/shumei/androidv2分析.assets/image-20210209162009330.png)
+![image-20210209162009330](./androidv2分析.assets/image-20210209162009330.png)
 
 然后在是x1的检测，检测有很多，100多个。这是其中一个，root被看的一览无余。。
 
